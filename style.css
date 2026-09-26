@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2c2c2a;
+  background-color: #f4f4f0;
+}
+
+nav {
+  background-color: #1d2b3a;
+  padding: 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  padding: 20px;
+}
+
+p {
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  background-color: #e8e6df;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.column h2 {
+  margin-top: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin: 0 0 4px 0;
+}
+
+.card p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #5f5e5a;
+}
+.forms-board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-column {
+  flex: 1;
+  min-width: 320px;
+  background-color: #e8e6df;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.form-column h2 {
+  margin-top: 0;
+}
+
+.form-wrapper iframe {
+  max-width: 100%;
+  border: none;
+}
+
