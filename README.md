@@ -5,8 +5,8 @@
 
    ## Try it
    Live site:
-
-   ## How to use it
+   
+   How to use it
    1. ...
    2. ...
 
